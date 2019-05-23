@@ -1,5 +1,5 @@
 FROM docker.io/centos:centos7
 
-RUN yum clean all
+RUN yum update -y && yum clean all
 
 
