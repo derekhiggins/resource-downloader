@@ -51,3 +51,5 @@ if [ -s $FFILENAME ] ; then
 else
     rm -rf $TMPDIR
 fi
+
+sleep infinity
